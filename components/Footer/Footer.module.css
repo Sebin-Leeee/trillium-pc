@@ -1,0 +1,25 @@
+.footer {
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 6rem 0;
+    text-align: center;
+  }
+  
+  .logo {
+    max-width: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .text {
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .link {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }

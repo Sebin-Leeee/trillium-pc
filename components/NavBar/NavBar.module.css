@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 4.5rem;
+    position: absolute;
+    width: 100%;
+    top: 28px;
+    z-index: 100;
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .logoImg {
+    height: 36px;
+  }
+  
+  .navLinks {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    flex: 2;
+  }
+  
+  .link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    outline: none; 
+  }
+
+  .link:hover{
+    color: #9A0707;
+  }
+  
+  .contactButton {
+    flex: 1;
+    text-align: right;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .contactBtn {
+    padding: 8px 28px;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 300;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .contactBtn:hover {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
