@@ -1,0 +1,44 @@
+/* Advantages.module.css */
+
+.container {
+    background-color: #F5F5F5;
+    padding: 4.5rem 4.5rem;
+    display: flex;
+    width: 100vw;
+    gap: 2rem;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap; /* To ensure the boxes wrap if the screen is small */
+  }
+  
+  .box {
+    background-color: #0d1520;
+    color: white;
+    padding: 50px;
+    margin: 10px 0;
+    width: 360px;
+    text-align: center;
+    border-radius: 5px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* To ensure content is spaced evenly */
+    align-items: center; /* Center the content */
+  }
+  
+  .h2 {
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+  }
+  
+  .p {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+  
+  .icon {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  

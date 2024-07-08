@@ -3,8 +3,10 @@ import Image from "next/image";
 import styles from "@/styles/About.module.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import AboutCompany from "@/components/About/AboutCompany";
+import Advantages from "@/components/About/Advantages";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
@@ -15,6 +17,8 @@ export default function Home() {
       </Head>
       <main className={`${styles.main}`}>
         <NavBar />
+        <AboutCompany />
+        <Advantages />
         <Footer />
       </main>
     </>
