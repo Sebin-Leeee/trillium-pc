@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "@/styles/About.module.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import ServicesGrid from "@/components/ServiceGrid";
 
 export default function Services() {
   return (
@@ -15,6 +16,7 @@ export default function Services() {
       </Head>
       <main className={`${styles.main}`}>
         <NavBar />
+        <ServicesGrid />
         <Footer />
       </main>
     </>

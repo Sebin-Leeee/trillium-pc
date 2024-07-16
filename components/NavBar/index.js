@@ -1,12 +1,14 @@
-import React from 'react';
-import Link from 'next/link';
-import styles from './NavBar.module.css';
+import React from "react";
+import Link from "next/link";
+import styles from "./NavBar.module.css";
 
 const NavBar = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.logo}>
-        <img src="/logo.png" alt="Logo" className={styles.logoImg} />
+        <Link href="/" className={styles.link}>
+          <img src="/logo.png" alt="Logo" className={styles.logoImg} />
+        </Link>
       </div>
       <div className={styles.navLinks}>
         <Link href="/" className={styles.link}>
