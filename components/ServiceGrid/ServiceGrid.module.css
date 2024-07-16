@@ -1,42 +1,59 @@
-.container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, auto);
-    column-gap: 1.5rem;
-    row-gap: 2rem;
-    padding: 20px;
-    background-color: #0d1520; 
-    padding: 12rem 4.5rem;
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust based on your grid requirements */
+  gap: 20px; /* Adjust the gap between grid items */
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 10rem;
+}
+
+.gridItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+  color: #333;
+}
+
+.title {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.description {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.button {
+  background-color: #9A0707;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0d1520;
+}
+
+.icon {
+  width: 45px;
+  height: auto;
+  padding-bottom: 16px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .gridContainer {
+    grid-template-columns: 1fr; /* Single column layout on smaller screens */
   }
-  
-  .box {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    transition: transform 0.2s;
-  }
-  
-  .box:hover {
-    transform: scale(1.05);
-  }
-  
-  .title {
-    font-size: 20px;
-    margin-bottom: 12px;
-    color: #333;
-    font-weight: 300;
-  }
-  
-  .list {
-    list-style-type: disc;
-    padding-left: 20px;
-  }
-  
-  .list li {
-    margin-bottom: 8px;
-    color: #666;
-  }
-  
+}
