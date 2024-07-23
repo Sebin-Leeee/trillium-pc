@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Overlay.module.css";
+import Link from "next/link";
 
 const OverlaySection = () => {
   return (
@@ -10,7 +11,9 @@ const OverlaySection = () => {
           <p className={styles.description}>
             Comprehensive and proactive management that prevents problems
           </p>
-          <button className={styles.button}>Contact Us</button>
+          <Link href="/contact" className={styles.link}>
+            <button className={styles.button}>Contact Us</button>
+          </Link>
         </div>
       </div>
     </div>

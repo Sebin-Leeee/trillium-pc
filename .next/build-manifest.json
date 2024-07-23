@@ -32,6 +32,16 @@
       "static/chunks/main.js",
       "static/chunks/pages/about.js"
     ],
+    "/managedservices": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/managedservices.js"
+    ],
+    "/onsitesupport": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/onsitesupport.js"
+    ],
     "/services": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

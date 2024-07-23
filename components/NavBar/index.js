@@ -22,7 +22,9 @@ const NavBar = () => {
         </Link>
       </div>
       <div className={styles.contactButton}>
-        <button className={styles.contactBtn}>Contact</button>
+        <Link href="/contact" className={styles.link}>
+          <button className={styles.contactBtn}>Contact</button>
+        </Link>
       </div>
     </div>
   );

@@ -1,0 +1,23 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    color: white;
+  }
+
+  .title{
+    font-size: 2.8rem;
+    font-weight: 400;
+  }
+
+  .detail{
+    font-weight: 300;
+  }
+
+  .red{
+    color:#fae4e4fa;
+  }

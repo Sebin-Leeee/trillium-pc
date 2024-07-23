@@ -48,10 +48,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Your Page Title</title>
+        <title>Trillium PC</title>
         <meta name="description" content="Your page description" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo_tab.png" />
       </Head>
       <main className={styles.main}>
         <NavBar />
